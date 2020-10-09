@@ -2,10 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Counter = ({ value }) => {
+  const handleClick = () => {
+    console.log("+1");
+  };
+
   return (
     <>
       <h1>Counter</h1>
-      <div>{value}</div>
+      <div>{ value }</div>
+      <button onClick={ handleClick }>Click me!</button>
     </>
   );
 };
