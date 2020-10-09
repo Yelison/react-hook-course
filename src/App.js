@@ -1,10 +1,6 @@
 import React from 'react';
+import Counter from './components/Counter';
 
-
-const App = () => {
-
-    return <h1>Hello world</h1>
-}
-
+const App = () => <Counter value={5}/>;
 
 export default App;
