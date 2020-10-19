@@ -1,6 +1,3 @@
-
-
-
 const nombre   = 'Yelisson';
 const apellido = 'Ortiz';
 
